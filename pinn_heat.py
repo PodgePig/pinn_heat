@@ -77,9 +77,9 @@ def initial_loss(params, x, t):
     return jnp.mean((u_pred - u_exact)**2)
 
 # Weighted loss – tune these weights if needed
-PDE_WEIGHT = 1.0
+PDE_WEIGHT = 5.0
 BC_WEIGHT = 1.0
-IC_WEIGHT = 10.0
+IC_WEIGHT = 1.0
 
 def loss_fn(params, x_int, t_int, x_bc, t_bc, x_ic, t_ic):
     return (PDE_WEIGHT * pde_loss(params, x_int, t_int) +
