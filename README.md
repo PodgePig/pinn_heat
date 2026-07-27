@@ -59,7 +59,3 @@ After training, the PINN achieves ~1% relative error. The solution plot shows ex
 - Extend to 2D heat equation or more complex PDEs.
 - Add mini‑batch training for larger problems.
 - Compare with traditional numerical methods (FDM/FEM).
-
-## License
-
-MIT (or your choice)
