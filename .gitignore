@@ -6,10 +6,6 @@ __pycache__/
 jax_cache/
 *.log
 
-# Output images
-loss.png
-solution.png
-
 # Virtual environments
 venv/
 env/
