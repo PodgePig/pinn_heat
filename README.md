@@ -44,7 +44,7 @@ Training takes ~2–5 minutes on a modern CPU (3000 epochs) and will output:
 
 ## Results
 
-After training, the PINN achieves ~1% relative error. The solution plot shows excellent agreement with the exact solution.
+After training, the PINN achieves <0.01% relative error. The solution plot shows agreement with the exact solution.
 
 ### Loss convergence
 
