@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# JAX cache
+jax_cache/
+*.log
+
+# Output images
+loss.png
+solution.png
+
+# Virtual environments
+venv/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
