@@ -37,14 +37,14 @@ Simply run:
 python pinn_heat.py
 ```
 
-Training takes ~2–5 minutes on a modern CPU (3000 epochs) and will output:
+Training takes ~2–5 minutes on a modern CPU (4500 epochs) and will output:
 
 - `loss.png` – training loss (log scale)
 - `solution.png` – predicted solution vs exact at `t=0.5`
 
 ## Results
 
-After training, the PINN achieves <0.01% relative error. The solution plot shows agreement with the exact solution.
+After training, the PINN achieves <0.1% relative error. The solution plot shows agreement with the exact solution.
 
 ### Loss convergence
 
